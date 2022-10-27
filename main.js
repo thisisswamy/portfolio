@@ -67,7 +67,6 @@ scrollTopBtn.addEventListener('click',()=>{
 })
 
 // Navigation menu items active on scroll
-
 window.addEventListener('scroll',()=>{
     const sections=document.querySelectorAll('section');
     const scrollY=window.pageYOffset;
